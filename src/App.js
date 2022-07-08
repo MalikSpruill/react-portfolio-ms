@@ -1,11 +1,22 @@
-import Button from '@mui/material/Button';
+import React, {useState} from 'react';
+import Header from './components/Header';
+import About from './components/About';
+import Project from './components/Project';
+import Contact from './components/Contact';
+import Resume from './components/Resume';
 
 function App() {
+
+  const [selectedPage, setSelectedPage] = useState('about');
+
   return (
-    <>
-      <h1>Hello</h1>
-      <Button variant="contained">Hello World</Button>
-    </>
+    <div>
+       <Header />
+       <About />
+       <Project />
+       <Contact />
+       <Resume />
+    </div>
   )
 }
 
