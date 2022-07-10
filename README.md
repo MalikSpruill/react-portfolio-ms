@@ -4,6 +4,7 @@
   ## Description
   A react-portfolio featuring information about me, including learned technologies and projects I've contributed to with those technologies.
 
+[Access the Portfolio here!](https://malikspruill.github.io/react-portfolio-ms/)
   
   ## Table of Contents
   * [License](#license)
