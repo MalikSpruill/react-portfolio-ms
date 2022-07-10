@@ -5,7 +5,6 @@ import About from './components/About';
 import Project from './components/Project';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
-import Button from '@mui/material/Button';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 
 
@@ -33,17 +32,16 @@ function App() {
 
   return (
     <ThemeProvider theme={theme}>
-      <div>
+      <section style={{ height: '100vh'}}>
       
         <Header selectedPage={selectedPage} setSelectedPage={setSelectedPage} />
         {selectedPage === 'about' && <About />}
         {selectedPage === 'project' && <Project />}
         {selectedPage === 'contact' && <Contact />}
         {selectedPage === 'resume' && <Resume />}
-        <Button variant="contained" color="secondary">Hello</Button>
-        {/* <Footer /> */}
+        <Footer />
   
-      </div>
+      </section>
     </ThemeProvider>
   )
 }

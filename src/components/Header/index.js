@@ -11,9 +11,24 @@ function Header ({selectedPage, setSelectedPage}) {
 
     return (
         <header>
-            <Nav setSelectedPage={setSelectedPage}></Nav>
-            <h1>Malik Spruill</h1>
-            <h2>{capitalizeSubtitle(selectedPage)}</h2>
+            <Nav 
+            setSelectedPage={setSelectedPage}
+            sx={{
+                justifySelf: 'flex-end'
+            }}></Nav>
+            <h1
+            style={{
+                fontSize: '2.5rem',
+                color: '#F1CF98'
+            }}>Malik Spruill</h1>
+            <h2>| Full-Stack Developer | Open for Collab |</h2>
+            <h3
+            style={{
+                fontSize: '2.3rem',
+                color: '#A7C1EB',
+                textAlign: 'right',
+                marginRight: '30px'
+            }}>{capitalizeSubtitle(selectedPage)}</h3>
             {/* <img src={logo1} style={{width: '200px', height: 'auto' }} /> */}
         </header>
     )

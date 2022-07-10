@@ -30,7 +30,11 @@ function Nav ({setSelectedPage}) {
     };
     return (
         <nav>
-            <Box sx={{ width: '100%'}}>
+            <Box sx={{ 
+                width: '100%',
+                display: 'flex',
+                justifyContent: 'flex-end'
+                }}>
                 <Tabs
                     value={value}
                     onChange={handleChange}
