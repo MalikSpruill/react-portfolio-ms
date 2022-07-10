@@ -1,21 +1,49 @@
 import React from 'react';
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
+import Box from '@mui/material/Box';
+import {useState} from 'react';
 
 
-function Nav () {
+function Nav ({setSelectedPage}) {
+    const [value, setValue] = useState('one');
+
+    // const showContent = event => {
+    //     let tab = event.target.value;
+
+    //     switch (tab) {
+    //         case 'about' : setSelectedPage('about');
+    //         break;
+    //         case 'projects' : setSelectedPage('projects');
+    //         break;
+    //         case 'contact' : setSelectedPage('contact');
+    //         break;
+    //         case 'resume' : setSelectedPage('resume');
+    //         break;
+    //         default: 'about'
+    //     }
+    //     return;
+    // }
+
+    const handleChange = (event, newValue) => {
+      setValue(newValue);
+    };
     return (
         <nav>
-            <Tabs
-                textColor="secondary"
-                indicatorColor="secondary"
-                aria-label="secondary tabs example"
-            >
-                <Tab value="one" label="About Me" />
-                <Tab value="two" label="Projects" />
-                <Tab value="three" label="Contact Me" />
-                <Tab value="three" label="Resume" />
-            </Tabs>
+            <Box sx={{ width: '100%'}}>
+                <Tabs
+                    value={value}
+                    onChange={handleChange}
+                    textColor="secondary"
+                    indicatorColor="secondary"
+                    aria-label="secondary tabs example"
+                >
+                    <Tab value="about" label="About Me" onClick={() => setSelectedPage('about')}/>
+                    <Tab value="projects" label="Projects" onClick={() => setSelectedPage('project')}/>
+                    <Tab value="contact" label="Contact Me" onClick={() => setSelectedPage('contact')} /> 
+                    <Tab value="resume" label="Resume" onClick={() => setSelectedPage('resume')} />
+                </Tabs>
+            </Box>
         </nav>
     )
 }
