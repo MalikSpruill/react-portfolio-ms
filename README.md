@@ -6,7 +6,7 @@
 
 [Access the Portfolio here!](https://malikspruill.github.io/react-portfolio-ms/)
 
-  <img src="./src/assets/images/portfolioscreenshot.png" width="600px" />
+![image](/src/assets/images/portfolioscreenshot.png)
   
   ## Table of Contents
   * [License](#license)
