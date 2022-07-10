@@ -5,6 +5,8 @@
   A react-portfolio featuring information about me, including learned technologies and projects I've contributed to with those technologies.
 
 [Access the Portfolio here!](https://malikspruill.github.io/react-portfolio-ms/)
+
+  <img src="./src/assets/images/portfolioscreenshot.png" width="600px" />
   
   ## Table of Contents
   * [License](#license)
