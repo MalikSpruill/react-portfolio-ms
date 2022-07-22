@@ -20,10 +20,10 @@ function Project () {
             github: 'https://github.com/Qlaub/potluck'
         },
         {
-            img: require('../../assets/images/budgettracker.png'),
-            title: 'Track a Budget',
-            application: 'https://protected-wildwood-15409.herokuapp.com/',
-            github: 'https://github.com/MalikSpruill/track-a-budget'
+            img: require('../../assets/images/roam-screenshot.png'),
+            title: 'Roam',
+            application: 'https://pacific-depths-60618.herokuapp.com/',
+            github: 'https://github.com/beatricekallen/roam'
         },
         {
             img: require('../../assets/images/textntech.png'),
