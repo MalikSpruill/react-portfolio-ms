@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/react-portfolio-ms/static/css/main.a054904d.css",
-    "main.js": "/react-portfolio-ms/static/js/main.f1aa8a4a.js",
+    "main.css": "/react-portfolio-ms/static/css/main.3bdc7930.css",
+    "main.js": "/react-portfolio-ms/static/js/main.4b13ffcd.js",
     "static/media/malik.jpg": "/react-portfolio-ms/static/media/malik.563b694b57c558cb1d36.jpg",
+    "static/media/roam-screenshot.PNG": "/react-portfolio-ms/static/media/roam-screenshot.03903c96757a68a5ed13.PNG",
     "static/media/weathermantis.png": "/react-portfolio-ms/static/media/weathermantis.709e645d68a6c35e0a1d.png",
     "static/media/textntech.png": "/react-portfolio-ms/static/media/textntech.3d6e2a4a3e9357508faf.png",
     "static/media/office-workplace.png": "/react-portfolio-ms/static/media/office-workplace.68c85e8a71e3e18b88a9.png",
-    "static/media/budgettracker.png": "/react-portfolio-ms/static/media/budgettracker.e66ed0498c07795c0980.png",
     "static/media/passwordformulator.png": "/react-portfolio-ms/static/media/passwordformulator.c590e749fb06e0f5f494.png",
     "static/media/mental-health-buddy-screenshot.png": "/react-portfolio-ms/static/media/mental-health-buddy-screenshot.ae0affe6549808840b20.png",
     "static/media/pot-luck.PNG": "/react-portfolio-ms/static/media/pot-luck.783a3893ff3e846b9125.PNG",
     "index.html": "/react-portfolio-ms/index.html",
-    "main.a054904d.css.map": "/react-portfolio-ms/static/css/main.a054904d.css.map",
-    "main.f1aa8a4a.js.map": "/react-portfolio-ms/static/js/main.f1aa8a4a.js.map"
+    "main.3bdc7930.css.map": "/react-portfolio-ms/static/css/main.3bdc7930.css.map",
+    "main.4b13ffcd.js.map": "/react-portfolio-ms/static/js/main.4b13ffcd.js.map"
   },
   "entrypoints": [
-    "static/css/main.a054904d.css",
-    "static/js/main.f1aa8a4a.js"
+    "static/css/main.3bdc7930.css",
+    "static/js/main.4b13ffcd.js"
   ]
 }
