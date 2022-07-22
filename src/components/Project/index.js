@@ -20,7 +20,7 @@ function Project () {
             github: 'https://github.com/Qlaub/potluck'
         },
         {
-            img: require('../../assets/images/roam-screenshot.png'),
+            img: require('../../assets/images/roam-screenshot.PNG'),
             title: 'Roam',
             application: 'https://pacific-depths-60618.herokuapp.com/',
             github: 'https://github.com/beatricekallen/roam'
